@@ -1,0 +1,54 @@
+/*for(let i=1;i<=10;i++){
+let m=5;
+let resul=m *i;
+
+console.log(+m+"*"+i+"="+resul);
+
+ 
+}*/
+
+//const { argv } = require("process");
+//const { argv } = require("process");
+//const { options } = require("yargs");
+//const { demandOption } = require("yargs");
+//const yargs = require("yargs");
+/*
+const { crearArchivo } = require("./orden/multiplica");
+
+const argv = require("yargs")
+  .option("b", {
+    alias: "base",
+    type: "number",
+    demandOption: true,
+  })
+  .option("l",{
+    alias:"lista",
+    type:"boolean",
+    default:false
+  })
+  .check((argv, options) => {
+    if(isNaN(argv.b)){
+    throw "la base tiene que ser un numero"
+    }
+    return true;
+  }).argv;
+
+
+
+
+
+
+console.clear();
+
+//console.log(process.argv);
+//console.log( argv);
+///const tabla5=5;
+
+const [,,argu3="base=5"]=process.argv;
+const[,base=5]=argu3.split("=");
+
+
+
+crearArchivo(argv.b, argv.l)
+  .then( nombreArchivo => console.log(nombreArchivo, "creado") )
+  .catch( err => console.log(err) );*/
